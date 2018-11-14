@@ -19,6 +19,8 @@ import static org.junit.Assert.fail;
 import javax.transaction.Transactional;
 
 import org.camunda.bpm.engine.RuntimeService;
+import org.example.repo.TestEntityRepository;
+import org.example.service.TransactionalTestService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

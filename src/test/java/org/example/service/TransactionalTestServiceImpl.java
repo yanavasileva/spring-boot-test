@@ -1,4 +1,4 @@
-package org.example;
+package org.example.service;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,6 +8,8 @@ import javax.transaction.Transactional.TxType;
 
 import org.camunda.bpm.engine.RuntimeService;
 import org.camunda.bpm.engine.runtime.ProcessInstance;
+import org.example.domain.TestEntity;
+import org.example.repo.TestEntityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
